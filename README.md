@@ -1,3 +1,5 @@
+# Build Circle Superheroes tech test
+
 Superheroes and villains are always battling it out, but how do we know who wins? In this test we will deploy a simple lambda to find out.
 
 The superhero and villain characters along with their stats are stored in a public json file in AWS S3 - https://s3.eu-west-2.amazonaws.com/build-circle/characters.json, 
