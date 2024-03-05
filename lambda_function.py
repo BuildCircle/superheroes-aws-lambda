@@ -1,12 +1,13 @@
 import json
 import urllib3
+import os
 
 def lambda_handler(event, context):
     
     http = urllib3.PoolManager()
 
     response = http.request('GET',
-                        'https://s3.eu-west-2.amazonaws.com/build-circle/characters.json',
+                        os.environ["data_url"],
                         retries = False)
     
     characters = json.loads(response.data.decode("utf-8"))
