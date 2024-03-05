@@ -3,7 +3,7 @@
 Superheroes and villains are always battling it out, but how do we know who wins? In this test we will deploy a simple lambda to find out.
 
 The superhero and villain characters along with their stats are stored in a public json file in AWS S3 - https://s3.eu-west-2.amazonaws.com/build-circle/characters.json, 
-When the lambda is deployed you can run the lambda with a query like: https://{my-lambda-hash}.lambda-url.eu-north-1.on.aws/?hero=Superman&villain=Joker the returned result should be some information aboutr the winner
+When the lambda is deployed you can run the lambda with a query like https://my-lambda-hash.lambda-url.eu-north-1.on.aws/?hero=Superman&villain=Joker the returned result should be some information aboutr the winner
 
 During a battle the character with the highest score wins.
 
