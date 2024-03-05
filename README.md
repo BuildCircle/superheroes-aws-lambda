@@ -11,7 +11,7 @@ We expect the solution to be simple, readable and secure.
 
 For this excersize we need to deploy a lambda function with:
 * A publically accessible lambda URL
-* The data source URL as an environment variable
+* The data source URL as an environment variable 'data_url'
 * Some cloud watch alerts
 
 The lambda code for deployment can be found in lambda-function.py, it shouldn't require modification. You can use any framework for deploying infrastructure such as the CDK or terraform.
