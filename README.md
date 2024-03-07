@@ -14,4 +14,4 @@ For this exercise, we need to deploy a lambda function with:
 * The data source URL as an environment variable 'data_url'.
 * Some cloud watch alerts for when the lambda throws an exception.
 
-The lambda code for deployment can be found in `lambda-function.py` and it shouldn't require modification. You can use any framework for deploying infrastructure such as the CDK, Terraform.
+The lambda code for deployment can be found in `lambda-function.py` and it shouldn't require modification. You can use any framework for deploying infrastructure such as the CDK, or Terraform.
